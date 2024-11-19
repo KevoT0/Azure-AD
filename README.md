@@ -1,7 +1,4 @@
-# Azure-AD
-
-<h2>Setting up Active directory and Creating a Group Policy in the Cloud</h2>
-
+# Setting up Active directory and Creating a Group Policy in the Cloud</h2>
 
 <h2>Description</h2>
 This Project shows detailed steps taken to set up Active directory and creating a Group Ploicy Microsoft Azure.  
@@ -15,7 +12,7 @@ This Project shows detailed steps taken to set up Active directory and creating 
 
 <h2>Environments Used </h2>
 
-- <b>Windows Server 2022</b> (21H2)
+- <b>Windows Server 2022</b>
 
 <h2>Program walk-through:</h2>
 
