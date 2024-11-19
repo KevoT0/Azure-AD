@@ -4,18 +4,18 @@
 
 
 <h2>Description</h2>
-This Project shows detailed steps taken to set up a Honeypot using Microsoft Azure. After setting up TPot we made the virtual machine vulnerable to attackers then we gathered various data and they were analyzed and processed.  
+This Project shows detailed steps taken to set up Active directory and creating a Group Ploicy Microsoft Azure.  
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Putty</b> 
+- <b>Virtual Machine</b> 
 - <b>Microsoft Azure</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows Server 2022</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
