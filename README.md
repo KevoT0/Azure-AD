@@ -1,6 +1,6 @@
 # Azure-AD
 
-<h1>Setting up Active directory and Creating a Group Policy in the Cloud</h1>
+<h3>Setting up Active directory and Creating a Group Policy in the Cloud</h3>
 
 
 <h2>Description</h2>
