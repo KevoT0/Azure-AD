@@ -17,77 +17,66 @@ This Project shows detailed steps taken to set up Active directory and creating 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Brief Diagram showing the entire project <br/>
-<img src="https://i.imgur.com/50IBCcy.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Setting up the Windows Server VM in AZURE <br/>
+<img src="https://i.imgur.com/QuDU2ej.jpeg" height="80%" width="80%" alt="Azure AD"/>
+<br />
+
+ <br/>
+<img src="https://i.imgur.com/jDvskmO.jpeg" height="80%" width="80%" alt="Azure AD"/>
+<br />
+
+<br />
+Connecting to the VM using Windows Remote desktop   <br/>
+<img src="https://i.imgur.com/Mg8D39D.jpeg" height="80%" width="80%" alt="Azure AD"/>
+<br />
+
+<br />
+Verifying Windows Defender Firewall is enabled <br/>
+<img src="https://i.imgur.com/Kydjj2d.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
 <br />
-Creating the Virtual Machine  <br/>
-<img src="https://i.imgur.com/pN0vtCR.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Adding Active Directory Domain Service Features<br/>
+<img src="https://i.imgur.com/PfcZjSU.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
 <br />
-Selecting Virtual Machine specification <br/>
-<img src="https://i.imgur.com/2d1XdMM.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Selecting Group Policy feature  <br/>
+<img src="https://i.imgur.com/L9dsR4a.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
 <br />
-Selecting Disk size <br/>
-<img src="https://i.imgur.com/T8oK48r.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Installation of AD DS<br/>
+<img src="https://i.imgur.com/kpJjBMV.jpeg" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
 <br />
 <br />
-Opening all ports to gather traffic  <br/>
-<img src="https://i.imgur.com/atO2mef.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br />
-Opening Putty and pasting the Virtual Machine IP on Putty to gain remote Access <br/>
-<img src="https://i.imgur.com/iT4Qc20.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br />
-Logging into Putty using the Username and Password created in Azure and updating the OS <br/>
-<img src="https://i.imgur.com/j7bDskk.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br /> 
-Installing Git (Used to install TPot) <br/>
-<img src="https://i.imgur.com/5Kn2BgF.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br />
-Code used to install TPot on the Virtual Machine <br/>
-<img src="https://i.imgur.com/yLKKQ13.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br />
-Setting up username and Password of TPot <br/>
-<img src="https://i.imgur.com/WoTMiaf.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br />
-Installing TPot Dependencies <br/>
-<img src="https://i.imgur.com/C7fwIKt.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br />
-Logging into TPot using the username and password created during the installation of TPot <br/>
-<img src="https://i.imgur.com/eDxunw0.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br />
-TPot interface show <br/>
-<img src="https://i.imgur.com/MyliqMJ.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
-<br />
-<br />
-Attack Map Interface <br/>
-<img src="https://i.imgur.com/UgH0Kxv.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Configuration of Domain Controller <br/>
+<img src="https://i.imgur.com/qPCXCHz.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
 <br /> 
-ElasticVUE Dashboard Interface <br/>
-<img src="https://i.imgur.com/bPstjwo.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Installation of configured Domain Controller <br/>
+<img src="https://i.imgur.com/7bLie67.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
 <br />
-Attckers IP Address and CVE <br/>
-<img src="https://i.imgur.com/3fjbhcb.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Creating a New policy with Group Policy Management <br/>
+<img src="https://i.imgur.com/r2mGVB7.jpeg" height="80%" width="80%" alt="Azure AD"/>
+<br />
+
+<br/>
+<img src="https://i.imgur.com/S8XUPJj.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
 <br />
-AbuseIPDB <br/>
-<img src="https://i.imgur.com/gyVg3YU.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Assigning Password Age <br/>
+<img src="https://i.imgur.com/NHNEGi3.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
 <br />
-Spiderfoot for gathering information <br/>
-<img src="https://i.imgur.com/ZT4RW3m.png" height="80%" width="80%" alt="Honey Pot Hosted in the Cloud Steps"/>
+Assigning Password length <br/>
+<img src="https://i.imgur.com/7kA6sQ3.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
+<br />
+Assigning Complexity requirement <br/>
+<img src="https://i.imgur.com/py9fkTl.jpeg" height="80%" width="80%" alt="Azure AD"/>
+<br />
+<br />
+Assigned Policies <br/>
+<img src="https://i.imgur.com/mNzrnUL.jpeg" height="80%" width="80%" alt="Azure AD"/>
 <br />
 </p>
 
