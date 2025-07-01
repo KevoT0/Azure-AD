@@ -1,18 +1,61 @@
 # Setting up Active directory and Creating a Group Policy in the Cloud</h2>
 
-<h2>Description</h2>
-This Project shows detailed steps taken to set up Active directory and creating a Group Ploicy Microsoft Azure.  
-<br />
+# 🛡️ Active Directory & Group Policy Configuration in Microsoft Azure
 
+## 📘 Description
 
-<h2>Languages and Utilities Used</h2>
+This project demonstrates the setup of a cloud-hosted **Windows Server 2022** virtual machine on **Microsoft Azure**, with installation and configuration of **Active Directory Domain Services (AD DS)** and the creation and enforcement of **Group Policy Objects (GPOs)** to manage domain-level security settings.
 
-- <b>Virtual Machine</b> 
-- <b>Microsoft Azure</b>
+---
 
-<h2>Environments Used </h2>
+## 🛠️ Technologies & Tools Used
 
-- <b>Windows Server 2022</b>
+- **Microsoft Azure**
+- **Windows Server 2022**
+- **Active Directory Domain Services (AD DS)**
+- **Group Policy Management Console (GPMC)**
+- **Remote Desktop Protocol (RDP)**
+
+---
+
+## 🧪 Project Steps
+
+### 1. Provision Windows Server in Azure
+- Created a new Windows Server 2022 Virtual Machine in Microsoft Azure.
+- Configured network security group (NSG) rules to allow RDP access (port 3389).
+- Enabled firewall and verified Remote Desktop was functional.
+
+### 2. Install Active Directory Domain Services
+- Installed the **AD DS** role via Server Manager.
+- Promoted the server to a **Domain Controller**.
+- Configured a new domain and forest.
+
+### 3. Install Group Policy Management Console
+- Added the **GPMC** feature using Server Manager.
+- Launched the GPMC to begin managing domain-level policies.
+
+### 4. Create and Configure Group Policy Objects (GPOs)
+- Created a new GPO to manage password policy for domain users.
+- Configured:
+  - **Minimum password length**
+  - **Maximum password age**
+  - **Password complexity requirements**
+- Linked the GPO to the domain root and confirmed inheritance.
+
+### 5. Test and Verify Policy Application
+- Created test user accounts in Active Directory.
+- Logged into a domain-joined machine to verify that the password policies were enforced.
+- Used `gpresult /r` and Event Viewer for confirmation.
+
+---
+
+## 🎯 Project Outcome
+
+- Successfully deployed a functional **domain controller** in a cloud environment.
+- Created and applied GPOs to enforce security standards.
+- Gained practical experience with **Windows Server administration**, **Azure infrastructure**, and **enterprise-level policy enforcement**.
+
+---
 
 <h2>Program walk-through:</h2>
 
